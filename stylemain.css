@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 83px;
+  max-width: 100%;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+main h2 {
+  font-size: 40px;
+}
+
+.boasvindas {
+  display: flex;
+  align-items: center;
+  padding-left: 101px;
+}
+
+.divdeboasvindas div {
+  margin-left: 29px;
+}
+
+hr {
+  width: 87px;
+  height: 2px;
+  background-color: rgb(148, 203, 60);
+}
+
+.divdeboasvindas h2 {
+  font-size: 60px;
+}
+
+.listadeboasvindas {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 35px;
+  font-size: 16px;
+}
+
+.listadeboasvindas li {
+  max-width: 573px;
+  width: 100%;
+}
+
+.exploreoffering {
+  margin-left: 90px;
+  margin-top: 181px;
+}
+
+.exploreoffering hr {
+  margin-bottom: 103px;
+}
+
+.exploreoffering div {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  width: 100%;
+  max-height: 520px;
+  height: 100%;
+  gap: 27px;
+}
+
+.articleoffering {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 285px;
+  width: 100%;
+  max-height: 210px;
+  height: 100%;
+  border: solid 2px;
+  border-color: rgb(227, 227, 227);
+  border-radius: 20px;
+  box-shadow: 0px 0px 1em rgb(227, 227, 227);
+  color: rgb(148, 203, 60);
+}
+
+h3 {
+  font-size: 32px;
+}
+
+.articleoffering:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(148, 203, 60);
+}
+
+.articleoffering p {
+  margin-top: 27px;
+  margin-bottom: 40px;
+  color: rgb(0, 0, 0);
+  width: 220px;
+}
+
+.sectionprojects {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 293px;
+  margin-left: 90px;
+}
+
+.textend {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1404px;
+  width: 100%;
+  max-height: 100%;
+  margin-top: 37px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  align-content: flex-end;
+}
+
+.products p {
+  margin-left: 20px;
+}
+
+.products hr {
+  margin-left: 20px;
+  width: 78px;
+}
+
+.project1 {
+  max-width: 462px;
+  width: 100%;
+  height: 376px;
+  background-image: url(./img/pexels-david-bartus.png);
+  margin-bottom: 56px;
+  margin-right: 30px;
+}
+
+.project2 {
+  max-width: 810px;
+  width: 100%;
+  height: 376px;
+  background-image: url(./img/pexels-luis-gomes.png);
+  margin-bottom: 56px;
+}
+
+.project3 {
+  max-width: 498px;
+  width: 100%;
+  height: 376px;
+  background-image: url(./img/pexels-pixabay.png);
+}
+
+.project4 {
+  max-width: 376px;
+  width: 100%;
+  height: 376px;
+  background-image: url(./img/cottonbro-studio-8721340\ 1.png);
+  margin-left: 19px;
+  margin-right: 19px;
+}
+
+.project5 {
+  max-width: 389px;
+  width: 100%;
+  height: 376px;
+  background-image: url(./img/pexels-rodnae.png);
+}
+
+.sectionreviews {
+  max-width: 100%;
+  margin-top: 175px;
+}
+
+.sectionreviews > div:first-child {
+  width: 100%;
+  padding-left: 66px;
+  margin-bottom: 63px;
+}
+
+.coments {
+  display: flex;
+  max-width: 100%;
+  background-color: rgb(255, 254, 254);
+  gap: 97px;
+  padding-top: 185px;
+  padding-left: 66px;
+  padding-right: 91px;
+}
+
+.coments p {
+  display: flex;
+  flex-direction: column;
+  width: 637px;
+}
+
+.butonlearmore {
+  width: 208px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  padding: 21px 48px;
+  background-color: rgb(148, 203, 60);
+  border: solid transparent;
+  border-radius: 35px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
+}
+
+.pagebuttons {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 254, 254);
+  gap: 14px;
+  padding-bottom: 97px;
+}
+
+.butonreviews {
+  width: 29px;
+  height: 29px;
+  border: solid transparent;
+  border-radius: 50%;
+  background-color: rgb(217, 217, 217);
+}
+
+.butonreviews:hover {
+  background-color: rgb(148, 203, 60);
+}
+
+.espacoembranco {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 423px;
+}

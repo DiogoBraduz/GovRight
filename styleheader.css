@@ -1,0 +1,75 @@
+.whiteletters {
+  color: rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./img/pexels-tranmautritam.png);
+  max-width: 1437px;
+  max-width: 100%;
+}
+
+a,
+li,
+ul {
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.menuheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 23px;
+  padding-left: 39px;
+  padding-right: 22px;
+}
+
+/*.search {
+  
+}*/
+
+.linksnav ul {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+}
+
+.lettersheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 193px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.lettersheader p {
+  font-size: 24px;
+}
+
+.logocompanies {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.7);
+  align-items: center;
+  justify-content: center;
+  gap: 31px;
+  width: 100%;
+  padding-bottom: 19px;
+}
+
+.bottonlearnmore {
+  padding: 16px 80px;
+  background-color: rgb(148, 203, 60);
+  border: solid transparent;
+  border-radius: 5px;
+  margin-top: 76px;
+  margin-bottom: 92px;
+  font-size: 16px;
+}
